@@ -15,7 +15,7 @@ const sendBtn = document.getElementById('sendBtn');
 
 //使用 WebSocket 的網址向 Server 開啟連結
 
-let ws = new WebSocket('ws://127.0.0.1:5000')
+let ws = new WebSocket('ws://testline6.herokuapp.com/:5000')
 //testline6.herokuapp.com
 ws.onopen = () => {
     console.log('open connection')
